@@ -1,0 +1,63 @@
+#top-bar {
+    background-color: rgb(215, 166, 166);
+    padding: 30px;
+    font-size: 20px;
+}
+
+#menu .nav-link {
+    font-size: 18px;
+    color: white !important;
+}
+
+#menu .btn-group .btn {
+    font-size: 18px;
+    background-color: rgb(100, 149, 237); 
+    border: none;
+}
+
+#menu .btn-group .dropdown-menu {
+    background-color: white;
+}
+
+#menu .btn-group .dropdown-menu .dropdown-item {
+    font-size: 16px;
+    color: black;
+}
+
+#menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#menu .form-select{
+    width: 10%;
+}
+.carousel-inner img {
+    max-width: 100%; /* Fit within the carousel width */
+    max-height: 700px; /* Adjust as needed */
+}
+.carousel-inner{
+    /* margin-left: 220px; */
+    /* margin-top: 80px; */
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+.carousel-item {
+    position: relative; 
+}
+
+.carousel-item h2 {
+    position: absolute;
+    top: 86%; 
+    left: 40%; 
+    color: white; 
+    font-size: 3rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+}
