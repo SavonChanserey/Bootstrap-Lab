@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11,6 +12,22 @@
 =======
 >>>>>>> f81e93c (change nav bar)
 >>>>>>> 4f4c3df (update)
+=======
+/* .nav-item {
+    margin-left: 105px; 
+} */
+/* Move navbar items towards the center with some gap from the right */
+/* Move navbar items slightly to the right */
+.navbar-nav {
+    margin-left: 60px; /* Adjust this value to move the items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 85px; /* Adjust the gap between the items */
+}
+
+
+>>>>>>> 9d4d4f6 (change nav bar)
 .carousel-inner img { 
     width: auto;
     height: 500px; 
@@ -55,12 +72,6 @@ body{
 .form-select {
     font-family: 'Archivo Black', sans-serif;
 }
-.nav-link {
-    color: white;
-    background-color: transparent; 
-    transition: all 0.3s ease;
-    border-radius: 25px; 
-}
 
 .nav-link:hover {
     color: #d3d3d3; 
@@ -69,10 +80,16 @@ body{
     border-radius: 20px;
 }
 .logo {
+<<<<<<< HEAD
     width:130px; 
     height: auto; 
     margin-right: 500px; 
     display: block; 
+=======
+    height: 150px;
+    width: auto;
+    margin-left: 150px;
+>>>>>>> 9d4d4f6 (change nav bar)
 }
 #menu .form-select {
     width: 10%;
@@ -83,6 +100,7 @@ body{
     padding: 5px; 
     font-family: 'Archivo Black', sans-serif; 
 }
+<<<<<<< HEAD
 #detail{
     width: 900px;
     align-items: center;
@@ -126,3 +144,30 @@ body{
     margin-right: 15px; 
 }
 
+=======
+
+/* Navbar Background Color */
+.navbar {
+    background-color: #1e1615 !important; /* Set the background color */
+    background: linear-gradient(to right, #1e1e1e, #b30000) !important; /* Use gradient as fallback */
+}
+
+.navbar .nav-link {
+    color: white !important; /* Force text color to white */
+    font-family: 'Archivo Black', sans-serif; /* Keep consistent font style */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+.gloria-hallelujah-regular {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Style for the Panda text with Gloria Hallelujah font */
+.navbar-logo-text {
+    font-family: 'Gloria Hallelujah', cursive; /* Use Gloria Hallelujah for the text */
+    font-size: 2rem; /* Adjust the size as needed */
+    color: white; /* Color to match the navbar background or customize */
+    margin-left: -260px; /* Add some space between the logo and the text */
+    vertical-align: middle; /* Align the text vertically with the logo */
+}
+>>>>>>> 9d4d4f6 (change nav bar)
