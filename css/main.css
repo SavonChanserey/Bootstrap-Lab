@@ -1,5 +1,6 @@
 #navbarSupportedContent a{
-    
+    display: flex;
+    justify-content: end;
 }
 .carousel-inner img { 
     width: auto;
