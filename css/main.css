@@ -2,19 +2,15 @@
     display: flex;
     justify-content: end;
 }
-/* .nav-item {
-    margin-left: 105px; 
-} */
-/* Move navbar items towards the center with some gap from the right */
-/* Move navbar items slightly to the right */
 .navbar-nav {
-    margin-left: 60px; /* Adjust this value to move the items to the right */
+    display: block;
+    margin-left: 60px; 
+    margin-top: 40px;
 }
 
 .navbar-nav .nav-item {
-    margin-right: 85px; /* Adjust the gap between the items */
+    margin-right: 85px; 
 }
-
 .carousel-inner img { 
     width: auto;
     height: 500px; 
@@ -71,6 +67,7 @@ body{
     height: auto; 
     margin-right: 500px; 
     display: block; 
+    margin-top: -60px;
 }
 #menu .form-select {
     width: 10%;
@@ -110,6 +107,8 @@ body{
     font-size: 2rem; 
     color: #ffffff; 
     margin-right: 30px;
+    margin-top: -50px;
+
 }
 .nav-item {
     margin-left: 105px;  
@@ -139,7 +138,6 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-/* Style for the Panda text with Gloria Hallelujah font */
 .navbar-logo-text {
     font-family: 'Gloria Hallelujah', cursive; /* Use Gloria Hallelujah for the text */
     font-size: 2rem; /* Adjust the size as needed */
