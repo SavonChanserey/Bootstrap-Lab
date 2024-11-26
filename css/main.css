@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 4f4c3df (update)
 #navbarSupportedContent a{
     display: flex;
     justify-content: end;
 }
-<<<<<<< HEAD
-=======
->>>>>>> f81e93c (change nav bar)
->>>>>>> 4f4c3df (update)
-=======
 /* .nav-item {
     margin-left: 105px; 
 } */
@@ -26,8 +15,6 @@
     margin-right: 85px; /* Adjust the gap between the items */
 }
 
-
->>>>>>> 9d4d4f6 (change nav bar)
 .carousel-inner img { 
     width: auto;
     height: 500px; 
@@ -80,16 +67,10 @@ body{
     border-radius: 20px;
 }
 .logo {
-<<<<<<< HEAD
     width:130px; 
     height: auto; 
     margin-right: 500px; 
     display: block; 
-=======
-    height: 150px;
-    width: auto;
-    margin-left: 150px;
->>>>>>> 9d4d4f6 (change nav bar)
 }
 #menu .form-select {
     width: 10%;
@@ -100,7 +81,6 @@ body{
     padding: 5px; 
     font-family: 'Archivo Black', sans-serif; 
 }
-<<<<<<< HEAD
 #detail{
     width: 900px;
     align-items: center;
@@ -143,9 +123,6 @@ body{
 .navbar-nav .nav-item {
     margin-right: 15px; 
 }
-
-=======
-
 /* Navbar Background Color */
 .navbar {
     background-color: #1e1615 !important; /* Set the background color */
@@ -170,4 +147,3 @@ body{
     margin-left: -260px; /* Add some space between the logo and the text */
     vertical-align: middle; /* Align the text vertically with the logo */
 }
->>>>>>> 9d4d4f6 (change nav bar)
