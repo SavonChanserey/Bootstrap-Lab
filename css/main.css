@@ -75,9 +75,41 @@ body{
     padding: 5px; /* Adjust padding */
     font-family: 'Archivo Black', sans-serif; /* Match font style */
 }
-#detail{
-    width: 900px;
-    align-items: center;
+
+
+
+
+
+
+/* #detail{
+    padding-top: 155px;
+    width: 100%;
+} */
+
+
+.container-fluid {
+    padding: 0; /* Remove default container padding */
+    height: 100vh;
+}
+.row {
+    min-height: 100vh; /* Ensure row fills the entire viewport height */
+}
+.left-side {
+    display: flex; /* Use flexbox for vertical centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0; /* Optional padding for spacing from the edges */
+    background-color: black;
+}
+.left-side img {
+    width: 100%; /* Image spans the full width of the left side */
+    height: auto; /* Maintain aspect ratio */
+}
+.right-side {
+    background-color: #383838; /* Example background color */
+    color: aliceblue;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 100px; /* Add padding for readability */
 }
