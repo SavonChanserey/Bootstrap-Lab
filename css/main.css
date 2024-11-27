@@ -381,13 +381,10 @@ a:hover {
     height: 100vh;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
 }
-=======
     justify-content: center; */
-  }
->>>>>>> refs/remotes/origin/main
+  /* } */
   .container {
     width: 800px; 
     height: 500px; 
@@ -396,6 +393,7 @@ a:hover {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 140px;
   }
   .col {
     width: 100%; 
