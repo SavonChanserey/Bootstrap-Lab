@@ -81,11 +81,6 @@ body{
 
 
 
-/* #detail{
-    padding-top: 155px;
-    width: 100%;
-} */
-
 
 .container-fluid {
     padding: 0; /* Remove default container padding */
@@ -107,9 +102,72 @@ body{
 }
 .right-side {
     background-color: #383838; /* Example background color */
-    color: aliceblue;
+    color: #fff;
+    padding: 30px; /* Add padding for readability */
+}
+.button-group {
+    display: flex; /* Use flexbox for button layout */
+    flex-wrap: wrap; /* Allow wrapping if buttons don't fit in one row */
+    justify-content: center; /* Center the buttons within the container */
+    gap: 10%; /* Add equal spacing between buttons */
+    margin-top: 40px; /* Optional: Add spacing above buttons */
+}
+.text-item {
+    display: inline-block; /* Keep text in a row */
+    margin-right: 20px; /* Space between each item */
+}
+.text-item:after {
+    content: '|'; /* Add the vertical bar after each text item */
+    margin-left: 20px; /* Space after the vertical bar */
+}
+.text-item:last-child:after {
+    content: ''; /* Remove the bar after the last item */
+}
+.btn-custom {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    width: 100%; /* Full width */
+    text-align: left; /* Align text to the left */
+    border-radius: 10px; /* No rounded corners */
+    padding: 15px; /* Padding for a better look */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px; /* Add padding for readability */
+    justify-content: space-between; /* Space between the text and arrow */
+    align-items: center; /* Vertically center the text and arrow */
+    margin-top: 20px;
+}
+.btn-custom:hover {
+    background-color: #444; /* Darker background on hover */
+}
+.dropdown-menu {
+    background-color: #444; /* Background color for the dropdown */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded dropdown corners */
+    width: 100%; /* Ensure it matches the button width */
+    padding: 10px; /* Add some padding inside the dropdown */
+}
+.dropdown-item-text {
+    color: #fff;
+    font-size: 14px; /* Adjust text size */
+    line-height: 1.5; /* Increase readability */
+}
+.episode{
+    margin-top: 20px;
+}
+.episodes{
+    display: flex; /* Use flexbox for button layout */
+    flex-wrap: wrap; /* Allow wrapping if buttons don't fit in one row */
+    justify-content: center; /* Center the buttons within the container */
+    gap: 5px; /* Add equal spacing between buttons */
+    margin-top: 15px; /* Optional: Add spacing above buttons */
+    
+}
+.episodes button{
+    margin-top: 20px; /*Optional: Add spacing above buttons*/ 
+    width: 15%;
+    height: 40px;
+}
+.episodes .btn-custom{
+    display: flex;
+    justify-content: space-evenly;
 }
