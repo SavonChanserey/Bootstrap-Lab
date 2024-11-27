@@ -267,3 +267,108 @@ body{
     
 }
 
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Centered container for the content */
+.container {
+    width: auto; /* Reduced width of the container */
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Box wrapper for both the image and the form */
+.box-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for the row */
+.row {
+    display: flex;
+    align-items: stretch;
+    gap: 10px; /* Reduced gap between image and form */
+}
+
+/* Image column styling */
+.image-col {
+    flex: 1; /* Decreased flex ratio to make the image column smaller */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-col img {
+    width: 80%; /* Reduced image width to make it smaller */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Form column styling */
+.form-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px; /* Reduced padding to make the form smaller */
+    border-radius: 8px;
+    width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Reduced padding for smaller inputs */
+    margin: 8px 0; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signupbtn, .cancelbtn {
+    width: 100%;
+    padding: 12px; /* Reduced button padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancelbtn {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Additional styling for headings and links */
+h1, p {
+    text-align: center;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
