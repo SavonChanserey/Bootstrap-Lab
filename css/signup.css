@@ -1,0 +1,199 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, rgb(35, 28, 28), rgb(149, 31, 31));
+    padding: 20px;
+}
+
+/* Centered container for the content */
+.container {
+    max-height: 600px; /* Reduced width of the container */
+    /* margin: 0 auto; */
+    /* padding-top: 50px; */
+}
+
+/* Box wrapper for both the image and the form */
+.box-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #bdb7b7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for the row */
+.row {
+    display: flex;
+    align-items: stretch;
+    gap: 10px; /* Reduced gap between image and form */
+}
+
+/* Image column styling */
+.image-col {
+    flex: 1; /* Decreased flex ratio to make the image column smaller */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-col img {
+    width: 80%; /* Reduced image width to make it smaller */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Form column styling */
+.form-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px; /* Reduced padding to make the form smaller */
+    border-radius: 8px;
+    width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Reduced padding for smaller inputs */
+    margin: 8px 0; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signupbtn, .cancelbtn {
+    width: 100%;
+    padding: 12px; /* Reduced button padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancelbtn {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Additional styling for headings and links */
+h1, p {
+    text-align: center;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#navbarSupportedContent a{
+    display: flex;
+    justify-content: end;
+}
+.navbar-nav {
+    display: flex;
+    margin-left: 60px; 
+    margin-top: 40px;
+}
+.nav-link,
+.form-select {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.nav-link:hover {
+    color: #d3d3d3; 
+    background-color: #333333; 
+    text-decoration: none; 
+    border-radius: 20px;
+}
+.logo {
+    width:130px; 
+    height: auto; 
+    margin-right: 500px; 
+    display: block; 
+    margin-top: -60px;
+}
+.navbar {
+    background-color: #cb2909 !important;  
+    background: linear-gradient(to right, #1e1e1e, #b30000) !important; 
+    padding: 10px 20px; 
+    border-bottom: 2px solid #b30000;  
+}
+.navbar .nav-link {
+    color: white !important;
+    font-family: 'Archivo Black', sans-serif;
+    transition: color 0.3s ease; 
+}
+.navbar .nav-link:hover {
+    color: #d3d3d3;  
+    background-color: #333333;  
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.navbar-logo-text {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem; 
+    color: #ffffff; 
+    margin-right: 30px;
+    margin-top: -50px;
+
+}
+.nav-item {
+    margin-left: 105px;  
+    margin-right: 15px;
+}
+.nav-link i {
+    margin-right: 8px; 
+    font-size: 1.2rem; 
+
+}
+.navbar-nav .nav-item {
+    margin-right: 15px; 
+}
+.navbar {
+    background-color: #1e1615 !important; 
+    background: linear-gradient(to right, #1e1e1e, #b30000) !important; 
+}
+
+.navbar .nav-link {
+    color: white !important; 
+    font-family: 'Archivo Black', sans-serif; 
+    transition: color 0.3s ease; 
+}
+.gloria-hallelujah-regular {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-logo-text {
+    font-family: 'Gloria Hallelujah', cursive; 
+    font-size: 2rem; 
+    color: white; 
+    margin-left: 10px; 
+    vertical-align: middle; 
+    text-align: left;
+}
