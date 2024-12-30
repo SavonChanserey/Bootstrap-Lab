@@ -8,132 +8,144 @@
       crossorigin="anonymous"
     />
     <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="../../css/detail1.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Details-4</title>
   </head>
   <body>
-  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center" href="../index.html">
-              <span class="navbar-logo-text">PANDA</span>
-              <img src="../image/image copy 5.png" alt="logo" class="logo me-2">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="nav-link active" href="../index.html"><i class="fa-regular fa-house"></i> Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" href="../movie.html"><i class="fa-solid fa-film"></i> Movie</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" href="#"><i class="fa-regular fa-cart-shopping"></i> Download</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" href="../login.html"><i class="fa-solid fa-address-card"></i> Login</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" href="#"><i class="fa-solid fa-earth-americas"></i> EN</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-        <div class="row">
-
-            <div class="col-md-7 col-12 left-side">
-                <img src="../image/image copy 10.png" alt="second movie">
-            </div>
-
-            <div class="col-md-5 col-12 right-side">
-                <h3>Wednesday</h3>
-                <p>Dec 31, 2021</p>
-
-                <div class="col-12 ">
-                  <span class="text-item">United States</span>
-                  <span class="text-item">Completed</span>
-                  <span class="text-item">Hollywood</span>
+        <a class="navbar-brand d-flex align-items-center" href="./index.html" target="_blank">
+          <img src="../image/image copy 5.png" alt="logo" class="logo me-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <form class="d-flex" role="search" method="GET" action="search_results_page.html">
+              <label for="searchInput" class="visually-hidden">Search</label>
+              <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+              <button type="submit" class="btn btn-outline-light">Search</button>
+            </form>
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html"><i class="fa-regular fa-house"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../movie.html"><i class="fa-solid fa-film"></i> Movie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fa-regular fa-cart-shopping"></i> Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../login.html"><i class="fa-solid fa-address-card"></i> Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="languageDropdown">
+                <i class="fa-solid fa-earth-americas"></i> Languages
+              </a>
+              <div id="dropdownMenu" class="dropdown-menu">
+                <select name="lang" id="lang-select" class="form-select">
+                  <option value="English">English</option>
+                  <option value="Khmer">Khmer</option>
+                  <option value="Chinese">Chinese</option>
+                </select>
               </div>
-
-                <div class="button-group ">
-                  <button type="button" class="btn btn-grey text-light btn-icon">
-                    <i class="fa-regular fa-heart"></i>
-                    <span>Favorite</span>
-                  </button>
-                  <button type="button" class="btn btn-grey text-light btn-icon">
-                    <i class="fa-solid fa-share-nodes"></i>
-                    Share
-                  </button>
-                  <button type="button" class="btn btn-grey text-light btn-icon">
-                    <i class="fa-solid fa-cloud-arrow-down"></i>
-                    <span>Download</span>
-                  </button>
-                  <button class="btn btn-grey text-light btn-icon">
-                    <i class="fas fa-exclamation-circle"></i>
-                    <span>Report</span>
-                </button>
-                </div>
-
-                <div class="dropdown">
-                  <button class="btn btn-secondary btn-custom dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Description
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><span class="dropdown-item-text">Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart and solve the mystery that embroiled her parents.</span></li>
-                  </ul>
-                </div>
-
-                <div class="episode">
-                  <h3>Episode</h3>
-                  <p>Total 8</p> 
-                </div>
-                
-                <div class="episodes">
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>1</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>2</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>3</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>4</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>5</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>6</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>7</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                  <button class="btn btn-secondary btn-custom text-light btn-icon">
-                    <span>8</span>
-                    <i class="fa-solid fa-closed-captioning"></i>
-                  </button>
-                </div>
-            </div>
+            </li>  
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-7 col-12 left-side">
+        <img src="../image/image copy 10.png" alt="second movie">
+      </div>
+
+      <div class="col-md-5 col-12 right-side">
+        <h3>Wednesday</h3>
+        <p>Dec 31, 2021</p>
+
+        <div class="col-12">
+          <span class="text-item">United States</span>
+          <span class="text-item">Completed</span>
+          <span class="text-item">Hollywood</span>
+        </div>
+
+        <div class="button-group">
+          <button type="button" class="btn btn-grey text-light btn-icon">
+            <i class="fa-regular fa-heart"></i>
+            <span>Favorite</span>
+          </button>
+          <button type="button" class="btn btn-grey text-light btn-icon">
+            <i class="fa-solid fa-share-nodes"></i>
+            Share
+          </button>
+          <button type="button" class="btn btn-grey text-light btn-icon">
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+            <span>Download</span>
+          </button>
+          <button class="btn btn-grey text-light btn-icon">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Report</span>
+          </button>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary btn-custom dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            Description
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><span class="dropdown-item-text">Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart and solve the mystery that embroiled her parents.</span></li>
+          </ul>
+        </div>
+
+        <div class="episode">
+          <h3>Episode</h3>
+          <p>Total 8</p> 
+        </div>
+
+        <div class="episodes">
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>1</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>2</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>3</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>4</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>5</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>6</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>7</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+          <button class="btn btn-secondary btn-custom text-light btn-icon">
+            <span>8</span>
+            <i class="fa-solid fa-closed-captioning"></i>
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
